@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Flask Chatterbot Example</title>
+    <style>
+        body{
+             font-family: Garamond;
+             background-color: aliceblue;
+             }
+
+        h1{
+            color: indigo;
+           }
+
+
+        h3{
+            color: black;
+            font-size: 20px;
+        }
+
+        #chatbox{
+            background-color:black;
+        }
+
+        #userInput{
+            color: #009688;
+        }
+
+        #textInput {
+            border: none;
+            border-bottom: 3px solid #009688;
+            font-size: 17px;
+        }
+
+        #buttonInput {
+            font-size: 17px;
+        }
+
+        .userText{
+            color: white;
+            font-size: 17px;
+        }
+
+        .userText span{
+            background-color: #009688;
+            border-radius: 2px;
+        }
+
+        .botText{
+            color: white;
+            font-size: 17px;
+        }
+
+        .botText span{
+            background-color: #EF5350;
+            border-radius: 2px;
+        }
+
+        #tidbit{
+            bottom: 0;
+            right: 0;
+
+        }
+     </style>
+</head>
+
+<body>
+<h1>Flask Chatterbot Example</h1>
+<div>
+    <div id="chatbox">
+        <p class="botText"><span>Hii ! I'm Chatterbot.</span></p>
+    </div>
+
+    <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Message">
+        <input id="buttonInput" type="submit" value="Send">
+    </div>
+
+    <script>
+        function getBotResponse() {
+            var  rawText = $("#textInput").val();
+            var userHtml = '<p class ="userText"><span>' + rawText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start',behavior: 'smooth'});
+            $.get("/get",{ msg:rawText}).done(function (data) {
+                var botHtml = '<p class ="botText"><span>' + data + '</span></p>';
+                    $("#chatbox").append(botHtml);
+               document.getElementById('userInput').scrollIntoView({block: 'start',behavior: 'smooth'});
+            });
+        }
+            $("#textInput").keypress(function (e) {
+                 if (e.which ==1){
+                     getBotResponse();
+                 }
+            });
+
+            $("#buttonInput").click(function() {
+                 getBotResponse();
+            })
+     </script>
+</div>
+</body>
+</html>

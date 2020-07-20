@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="accde012-4ea3-47a9-a498-a4364da8fdf6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eqjYdUwWnVXD2LqnK2JOhegstl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="accde012-4ea3-47a9-a498-a4364da8fdf6" name="Default Changelist" comment="" />
+      <created>1595056065448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595056065448</updated>
+      <workItem from="1595056075947" duration="286000" />
+      <workItem from="1595056403734" duration="23056000" />
+      <workItem from="1595099350394" duration="5073000" />
+      <workItem from="1595227964773" duration="12844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="152" key="#Web_Browsers" timestamp="1595226832207">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="152" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1595226832207" />
+    <state x="143" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595100425704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="143" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595100425704" />
+    <state x="469" y="118" key="FileChooserDialogImpl" timestamp="1595227956895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="469" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595227956895" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1595100704407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595100704407" />
+  </component>
+</project>
